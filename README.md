@@ -17,6 +17,22 @@ It can be installed from Hackage:
 
     $ cabal install osdkeys
 
+## Usage
+
+Usage is simple:
+
+    $ osdkeys
+    osdkeys: Arguments: DEVICE-ID [<max-keys-on-screen>]
+
+    Use `xinput list' to get device ID.
+
+Example:
+
+    $ osdkeys 9
+
+Will display keys from the device identified by `9` from `xinput
+list`.
+
 ## Why not screenkey?
 
 That has unpredictable key grabbing, doesn't support XMonad and is
