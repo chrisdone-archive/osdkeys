@@ -10,3 +10,8 @@ This program uses the `xinput` program to get a stream of key presses
 and uses the `libnotify` library to display them on-screen.
 
 Currently supported display notations are: Emacs
+
+## Why not screenkey?
+
+That has unpredictable key grabbing, doesn't support XMonad and is
+unmaintained.
