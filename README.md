@@ -11,6 +11,12 @@ and uses the `libnotify` library to display them on-screen.
 
 Currently supported display notations are: Emacs
 
+## Install
+
+It can be installed from Hackage:
+
+    $ cabal install osdkeys
+
 ## Why not screenkey?
 
 That has unpredictable key grabbing, doesn't support XMonad and is
