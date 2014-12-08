@@ -1,5 +1,5 @@
 name:                osdkeys
-version:             0.0
+version:             0.0.1
 synopsis:            Show keys pressed with an on-screen display (Linux only)
 description:         This program uses the xinput program to get a stream of key presses
                      and uses the libnotify library to display them on-screen.
